@@ -16,7 +16,7 @@ def webpy():
     # browser things #
     # initials
     driver = webdriver.Chrome(PATH)
-    driver.get("https://www.github.com/in/login")
+    driver.get("https://www.github.com/login")
     # entering  username & password
     driver.find_element_by_css_selector("#login_field").send_keys(username)
     driver.find_element_by_css_selector("#password").send_keys(password)
